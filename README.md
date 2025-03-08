@@ -67,7 +67,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 2. Created components such as Header, RecipeList, RecipeCard, SearchBar, and FilterSidebar.
 
-3. Implemented the Filter, sorting, and searchhbar functionality.
+3. Implemented the Filter, sorting, and searchbar functionality.
 
 4. Ran the npm start command in your terminal.
 
