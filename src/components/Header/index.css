@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header-container{
+    background-color: black;
+    color: rgb(245, 95, 36);
+    width: 100%;
+    
+   
+    
+
+}
+
+
+
+.header{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+    height: 70px;
+    padding-top:20px ;
+    position: relative;
+    animation: headerAmination 3s ease-in-out infinite
+
+}
+
+@keyframes headerAmination  {
+    0%   {right: 0px; left: 0px; color: #ff0000;}
+    25%  {right: 0px; left: 100px; color: blue;}
+    50%  {right: 100px; left: 100px; color: yellow;}
+    75%  {right: 100px; left: 0px; color: green;}
+    100% {right: 0px; left: 0px; color: rgb(222, 236, 15);}
+  }
+
+  /* Responsive  Design*/
+
+  @media screen and (max-width:768px) {
+    .header-container{
+        width: 100%;
+    }
+    .header{
+        font-size: 22px;
+        animation-duration: 2.5s;
+    }
+    
+  }
+
+  @media screen and (max-width:480px) {
+    .header-container{
+        width: 100%;
+    }
+    .header{
+        font-size: 2opx;
+        animation-duration: 2s;
+    }
+    
+  }

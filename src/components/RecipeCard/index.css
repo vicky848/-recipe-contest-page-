@@ -1,0 +1,77 @@
+
+.recipe-list-item{
+    height: 580px;
+    width: 400px;
+    box-shadow: 1px 1px 5px grey;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.image-recipe{
+    height: 300px;
+    width:100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 8px;
+}
+.recipe-name-heading{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+   
+    
+}
+
+.recipe-text{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px ;
+    margin-left:10px ;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+/* Resposive Design */
+
+@media screen and (max-width:768px) {
+    .recipe-list-item{
+    height: 550px;
+    width: 350px;
+    flex-wrap: wrap;
+
+    }
+    .recipe-name-heading{
+        font-size: 22px;
+    }
+    .recipe-text{
+        font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width:480px) {
+    .recipe-list-item{
+        max-width: 100%;
+        margin: 10px 0;
+
+    }
+    .image-recipe{
+        height: 250px;
+    }
+    .recipe-name-heading{
+        font-size: 20px;
+    }
+    .recipe-text{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+      .recipe-list-item{
+        height: 500px;
+        width: 250px;
+    
+        }
+    
+    
+  }
