@@ -63,6 +63,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+1. Ran the npm install command in your terminal.
+
+2. Created components such as Header, RecipeList, RecipeCard, SearchBar, and FilterSidebar.
+
+3. Implemented the Filter, sorting, and searchhbar functionality.
+
+4. Ran the npm start command in your terminal.
+
+5. Application started on localhost:3000.
+
+- Recipe search feature
+
+- Recipe filter feature (contest winner, featured, test kitchen approved)
+
+- Recipe sorting feature (newest, oldest, highest rated, lowest rated)
+
+- Responsive design
+
+To test the application, you can go to localhost:3000 and test this functionality.
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
